@@ -1,0 +1,137 @@
+.containerAboutUs {
+    padding-top: 160px;
+    margin-top: -80px;
+    position: relative;
+    padding-bottom: 80px;
+    margin-bottom: 160px;
+}
+
+.containerWhatWeDo {
+    padding-top: 120px;
+    background-color: rgba(9,13,0 , 0.15);
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+.containerWhatWeDo.containerWhatWeDo.containerWhatWeDo {
+    margin-top: -80px !important;
+}
+.phasesWhatWeDo {
+    width: 80%;
+    margin: 3rem auto 3rem auto !important;
+    padding-bottom: 3rem !important;
+}
+
+.containerJobs {
+    padding-top: 160px;
+    margin-top: -80px;
+}
+.wrapperAboutUs {
+    position: relative;
+    margin-top: 4rem;
+}
+.descriptionAboutUs {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.wrapperAboutUs_photo {
+    position: absolute !important;
+    width: 140px;
+}
+.wrapperAboutUs_photo:hover {
+    cursor: pointer;
+}
+.isDivider {
+    width: 80%;
+    margin: 0 auto !important;
+}
+.photo0 {
+    left: 10%;
+    top: -40px;
+}
+
+.photo1 {
+    right: 10%;
+    top: 40px;
+}
+
+.photo2 {
+    left: 10%;
+    top: 145px;
+}
+.employeeInf {
+    position: absolute !important;
+    left: 35%;
+    top: 120px;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.98) !important;
+    color: white;
+}
+.jobsCards {
+    margin: 2rem 0 !important;
+}
+.jobsCard {
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+    background-color: rgb(39,40,45);
+    box-shadow:0 4px 16px 0 rgba(0,0,0,.12);
+}
+.jobItemDescription {
+    padding: 1rem;
+    clear: both;
+    width: 90%;
+}
+.iconDeleteFile {
+    margin-left: 1rem !important;
+}
+.iconDeleteFile:hover {
+    cursor: pointer;
+}
+@media (min-width: 681px) and (max-width: 1350px) {
+    .photosAboutUs {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+    }
+    .wrapperAboutUs_photo {
+        position: static !important;
+        width: 140px;
+    }
+    .descriptionAboutUs {
+        width: 80%;
+        padding-top: 0;
+    }
+    .employeeInf {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media (max-width: 680px) {
+    .photosAboutUs {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+    }
+    .isDivider {
+        width: 100%;
+    }
+    .descriptionAboutUs {
+        width: 90%;
+        padding-top: 0;
+    }
+    .wrapperAboutUs_photo {
+        position: static !important;
+        width: 100px;
+    }
+    .employeeInf {
+        width: 90%;
+        bottom: 210px;
+        top: 250px;
+        left: 5%;
+    }
+}
